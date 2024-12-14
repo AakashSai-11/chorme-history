@@ -1,0 +1,124 @@
+.App {
+  height: 100vh;
+}
+.no-history-tag {
+  margin-top: 20%;
+  margin-left: 45%;
+}
+
+/* history-container-styling */
+.history-container {
+  margin-top: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+  border-radius: 2px;
+}
+
+/* history component styling */
+.history {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 15px;
+  /* border: 1px solid #ddd; */
+  border-radius: 8px;
+  /* margin-bottom: 10px; */
+  background-color: #fff;
+  /* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); */
+}
+
+.history-time {
+  font-size: 12px;
+  color: #757575;
+  width: 10%;
+  text-align: center;
+}
+
+.history-img img {
+  width: 24px;
+  height: 24px;
+  border-radius: 4px;
+  margin-right: 10px;
+}
+
+.history-title-container {
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+  margin-left: 10px;
+}
+
+.history-title {
+  font-size: 14px;
+  font-weight: bold;
+  color: #333;
+}
+
+.history-url {
+  margin-left: 1rem;
+  font-size: 12px;
+  color: #757575;
+  align-self: center;
+}
+
+.history-btn {
+  font-size: 12px;
+  color: #ff4d4f;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.history-btn:hover {
+  color: #ff0000;
+}
+
+/* Header styling */
+.header-comp {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+  background-color: #1a73e8; /* Blue background */
+  color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.header-comp-heading {
+  height: 40px; /* Adjust size as needed */
+}
+
+.header-comp-search {
+  display: flex;
+  align-items: center;
+  margin-right: 30%;
+  /* background-color: #fff; White background for search input */
+  border-radius: 20px;
+  padding: 5px 10px;
+  /* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); */
+}
+
+.header-comp-input {
+  height: 40px;
+  border: none;
+  outline: none;
+  font-size: 1rem;
+  color: white;
+  margin-right: 10px;
+  width: 400px;
+  background-color: #475569;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.header-comp-searchIcon {
+  text-align: center;
+  box-sizing: border-box;
+  width: 60px;
+  height: 41px; /* Adjust size for search icon */
+  padding: 10px;
+  cursor: pointer;
+  margin-right: 1px;
+  background-color: #475569;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
